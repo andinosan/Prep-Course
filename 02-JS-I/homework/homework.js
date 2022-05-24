@@ -47,24 +47,30 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var newresta;
-  newresta = x-y;
+  var newx, newy, newresta;
+  newx = x;
+  newy = y;
+  newresta = newx-newy;
   return newresta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var newmultiplica;
-  newmultiplica = x*y;
+  var newx, newy, newmultiplica;
+  newx = x;
+  newy = y;
+  newmultiplica = newx*newy;
   return newmultiplica;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var newdivide;
-  newdivide = x/y;
+  var newx, newy, newdivide;
+  newx = x;
+  newy = y;
+  newdivide = newx/newy;
   return newdivide;
 }
 
@@ -72,8 +78,10 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  var newsonIguales;
-  if (x===y)
+  var newx, newy, newsonIguales;
+  newx = x;
+  newy = y;
+  if (newx===newy)
   {
     newsonIguales = true;
   }
@@ -88,8 +96,18 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  var newtienenMismaLongitud;
-
+  var newstr1, newstr2, newtienenMismaLongitud;
+  newstr1 = str1;
+  newstr2 = str2;
+  if (newstr1.length === newstr2.length)
+  {
+    newtienenMismaLongitud = true;
+  }
+  else
+  {
+    newtienenMismaLongitud = false;
+  }
+  return newtienenMismaLongitud;
 }
 
 function menosQueNoventa(num) {
