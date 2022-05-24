@@ -40,7 +40,7 @@ function suma(x, y) {
   var newx, newy, newsuma;
   newx = x;
   newy = y;
-  newsuma = newx+newy;
+  newsuma = newx + newy;
   return newsuma;
 }
 
@@ -50,7 +50,7 @@ function resta(x, y) {
   var newx, newy, newresta;
   newx = x;
   newy = y;
-  newresta = newx-newy;
+  newresta = newx - newy;
   return newresta;
 }
 
@@ -60,7 +60,7 @@ function multiplica(x, y) {
   var newx, newy, newmultiplica;
   newx = x;
   newy = y;
-  newmultiplica = newx*newy;
+  newmultiplica = newx * newy;
   return newmultiplica;
 }
 
@@ -70,7 +70,7 @@ function divide(x, y) {
   var newx, newy, newdivide;
   newx = x;
   newy = y;
-  newdivide = newx/newy;
+  newdivide = newx / newy;
   return newdivide;
 }
 
@@ -81,7 +81,7 @@ function sonIguales(x, y) {
   var newx, newy, newsonIguales;
   newx = x;
   newy = y;
-  if (newx===newy)
+  if (newx === newy)
   {
     newsonIguales = true;
   }
@@ -114,47 +114,97 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var newnum, newmenosQueNoventa;
+  newnum = num;
+  if (newnum < 90)
+  {
+    newmenosQueNoventa = true;
+  }
+  else
+  {
+    newmenosQueNoventa = false;
+  }
+  return newmenosQueNoventa;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var newnum, newmayorQueCincuenta;
+  newnum = num;
+  if (newnum > 50)
+  {
+    newmayorQueCincuenta = true;
+  }
+  else
+  {
+    newmayorQueCincuenta = false;
+  }
+  return newmayorQueCincuenta;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  var newx, newy, newobtenerResto;
+  newx = x;
+  newy = y;
+  newobtenerResto = newx % newy;
+  return newobtenerResto;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var newnum, newesPar;
+  newnum = num;
+  if ((newnum % 2) === 0)
+  {
+    newesPar = true;
+  }
+  else
+  {
+    newesPar = false;
+  }
+  return newesPar;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var newnum, newesImpar;
+  newnum = num;
+  if ((newnum % 2) !== 0)
+  {
+    newesImpar = true;
+  }
+  else
+  {
+    newesImpar = false;
+  }
+  return newesImpar;
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  var newnum, newelevarAlCuadrado;
+  newnum = num;
+  newelevarAlCuadrado = (Math.pow (num, 2));
+  return newelevarAlCuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+  var newnum, newelevarAlCubo;
+  newnum = num;
+  newelevarAlCubo = (Math.pow (num, 3));
+  return newelevarAlCubo;
 }
 
 function elevar(num, exponent) {
