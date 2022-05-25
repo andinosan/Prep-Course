@@ -1,4 +1,4 @@
-    Explicaciones12años
+    Explicaciones12
 
     En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si
     se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier
@@ -10,4 +10,31 @@
     Declaraciones if
     Valores booleanos (true, false)
 
+    Variables: las variables son cajas donde podés guardar datos, esos datos pueden ser de varios tipos, por
+    ejemplo: números enteros, números decimales, textos, o solo 1 caracter. Cuando realizás tareas, podés
+    cambiar los datos que guardaste en esas cajas, por ejemplo: tenés una variable para llevar la cuenta de
+    la cantidad de plantas que tenés en casa, cuando comprás 1 planta nueva, esa cantidad cambia.
+
+    Strings: "string" es un tipo de variables que sirve para guardar textos. Por ejemplo, creás una variable
+    llamada NombreyApellido que va a ser de tipo string, y adentro guardás el texto "Lucía Hernández".
     
+    Funciones (argumentos, return): las funciones son acciones que se realizan cuando las llamás. Por ejemplo,
+    podés tener una función que muestra por la pantalla un mensaje de bienvenida (esta va a ser llamada cada 
+    vez que arranque el programa), o una función que suma 2 números (llamarás a la función y esta realizará
+    una suma de ambos números y te mostrará en pantalla su resultado). Los argumentos son datos que toma una
+    función para que los procese, por ej: la función de la suma tomará como argumentos 2 números que le
+    enviarás, y recién ahí realizará la suma. El return es la acción que te devuelve un resultado de una
+    función, por ej: la función de la suma devolverá el número que sea el resultado de la suma.
+
+    Declaraciones if: las declaraciones if le indican al programa que haga determinadas acciones dependiendo
+    de si se cumplen determinadas condiciones. Por ej: un programa podría pedirte que ingreses la hora, y
+    a continuación enviaría ese dato a un if: si está entre las 7:00 y las 21:59 te mostraría todas las
+    actividades en tu agenda, pero si está entre las 22:00 y las 6:59 sólo te mostraría un mensaje que diría
+    "Vete a dormir".
+
+    Valores booleanos (true, false): es un tipo de valores que sólo puede tener 2 estados: true o false
+    (verdadero o falso, respectivamente). Por este motivo, son muy útiles para confirmar que una condición se
+    ha cumplido o no. Además, se puede crear variables de tipo booleano. Un ejemplo de valores booleanos en
+    acción podría ser una variable bool que informa si has completado una tarea: al crearse estaría por
+    defecto en valor "false", pero una vez completada la tarea el programa cambiaría el valor de la variable a
+    "true".
