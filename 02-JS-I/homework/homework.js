@@ -301,7 +301,7 @@ function combinarNombres(nombre, apellido) {
   var newnombre, newapellido, newcombinarNombres, newresultado;
   newnombre = nombre;
   newapellido = apellido;
-  newcombinarNombres = `${nombre} ${apellido}`;
+  newcombinarNombres = `${newnombre} ${newapellido}`;
   newresultado = newcombinarNombres;
   return newresultado;
 }
@@ -310,27 +310,45 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  
+  var newnombre, newobtenerSaludo, newresultado;
+  newnombre = nombre;
+  newobtenerSaludo = `Hola ${newnombre}!`;
+  newresultado = newobtenerSaludo;
+  return newresultado;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  var newalto, newancho, newobtenerAreaRectangulo, newresultado;
+  newalto = alto;
+  newancho = ancho;
+  newobtenerAreaRectangulo = newancho * newalto;
+  newresultado = newobtenerAreaRectangulo;
+  return newresultado;
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  var newlado, newretornarPerimetro, newresultado;
+  newlado = lado;
+  newretornarPerimetro = newlado * 4;
+  newresultado = newretornarPerimetro;
+  return newresultado;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+  var newbase, newaltura, newareaDelTriangulo, newresultado;
+  newbase = base;
+  newaltura = altura;
+  newareaDelTriangulo = newbase * newaltura / 2;
+  newresultado = newareaDelTriangulo;
+  return newresultado;
 }
 
 
@@ -338,7 +356,12 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  var neweuro, newdeEuroAdolar, newresultado;
+  const valordolar = 1.20;
+  neweuro = euro;
+  newdeEuroAdolar = neweuro * valordolar;
+  newresultado = newdeEuroAdolar;
+  return newresultado;
 }
 
 
@@ -348,7 +371,22 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  var newletra, newesVocal, newresultado;
+  newletra = letra;
+  if (newletra.length > 1)
+  {
+    newesVocal = 'Dato incorrecto';
+  }
+  else if (newletra === 'a' || 'e' || 'i' || 'o' || 'u')
+  {
+    newesVocal = 'Es vocal';
+  }
+  else
+  {
+    newesVocal = 'Dato incorrecto';
+  }
+  newresultado = newesVocal;
+  return newresultado;
 }
 
 
