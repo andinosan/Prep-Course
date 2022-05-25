@@ -235,19 +235,30 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  var newnum, newredondearNumero, newresultado;
+  newnum = num;
+  newredondearNumero = (Math.round (newnum));
+  newresultado = newredondearNumero;
+  return newresultado;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  var newnum, newredondearHaciaArriba, newresultado;
+  newnum = num;
+  newredondearHaciaArriba = (Math.ceil (newnum));
+  newresultado = newredondearHaciaArriba;
+  return newresultado;
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var newnumeroRandom, newresultado;
+  newnumeroRandom = (Math.random(newnumeroRandom));
+  newresultado = newnumeroRandom;
+  return newresultado;
 }
 
 function esPositivo(numero) {
@@ -255,7 +266,22 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  var newnumero, varnewesPositivo, newresultado;
+  newnumero = numero;
+  if (newnumero > 0)
+  {
+    varnewesPositivo = 'Es positivo';
+  }
+  else if (newnumero < 0)
+  {
+    varnewesPositivo = 'Es negativo';
+  }
+  else
+  {
+    varnewesPositivo = false;
+  }
+  newresultado = varnewesPositivo;
+  return newresultado;
 }
 
 function agregarSimboloExclamacion(str) {
