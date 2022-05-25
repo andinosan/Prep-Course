@@ -29,9 +29,22 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   var newstr, newresultado;
+  // En mis funciones, hago una distribución de tareas. Los argumentos de la función sólo son usados para
+  // recibir los datos, son otras variables locales dentro de la función las que actúan en el procesamiento y
+  // la devolución de resultados...
+
   newstr = str;
+  // ... entonces, en una variable local copio esos datos, el procesamiento va a afectar únicamente esa
+  // variable local...
+
   newresultado = newstr;
+  // ... cuando ya está terminado el proceso de esos datos y ya tengo su resultado, copio ese resultado a otra
+  // variable, que es la que va a ser específicamente usada para la devolución de la función...
+
   return newresultado;
+  // ... en este caso en particular es una función muy sencilla que sólo repite el texto ingresado, pero más
+  // adelante en funciones más complejas que tienen varios parámetros, operaciones, posibles resultados, etc.
+  // se verá con más detalle el funcionamiento de mi enfoque para funciones.
 }
 
 function suma(x, y) {
@@ -357,7 +370,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var neweuro, newdeEuroAdolar, newresultado;
-  const valordolar = 1.20;
+  const valordolar = 1.20; // Uso una constante porque el valor del dólar nunca será cambiado por la función
   neweuro = euro;
   newdeEuroAdolar = neweuro * valordolar;
   newresultado = newdeEuroAdolar;
