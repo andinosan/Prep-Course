@@ -377,7 +377,7 @@ function esVocal(letra){
   {
     newesVocal = 'Dato incorrecto';
   }
-  else if (newletra === 'a' || 'e' || 'i' || 'o' || 'u')
+  else if (newletra === 'a' || newletra === 'e' || newletra === 'i' || newletra === 'o' || newletra === 'u')
   {
     newesVocal = 'Es vocal';
   }
