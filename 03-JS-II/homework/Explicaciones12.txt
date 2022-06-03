@@ -1,0 +1,27 @@
+    Explicaciones12
+
+    En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si
+    se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier
+    agujero en tu comprensión.
+
+    for
+    &&, ||, !
+
+    for: es una herramienta que nos permite repetir instrucciones automáticamente en vez de andar tipeando
+    una y otra vez el código con las instrucciones. Funciona como un bucle que arranca contando desde 0 y
+    luego va sumando de a 1 hasta que termina en un número determinado; el truco es que, en cada número por
+    el que pasa desde el 0 hasta aquel número determinado, va a repetir las instrucciones que estén en el
+    código.
+
+    &&, ||, !: a este tipo de elementos se los conoce como operadores lógicos, ellos trabajan con las
+    condiciones y su resultado es un booleano (verdadero o falso). && (AND en inglés, Y en español) funciona
+    así: toma 2 condiciones y actúa sobre ellas (A && B), pregunta si la primera condición A es verdadera y
+    luego si la segunda condición B es verdadera (por ejemplo, en un partido de fútbol la primera condición
+    sería que el equipo metió al menos 1 gol, y la segunda condición sería que no le metieron ningún gol), si
+    ambas condiciones son verdaderas entonces toda la operación dará como resultado verdadero, si hay aunque
+    sea una sóla condición que sea falsa, toda la operación (A && B) dará como resultado falso. || (OR en
+    inglés, O en español) funciona preguntando si alguna de las 2 condiciones es verdadera, con que al menos
+    una lo sea la operación (A || B) dará como resultado verdadero, sólo podrá dar falso si ambas condiciones
+    son falsas. ! (NOT en inglés, NO en español) modifica una condición volviéndola como su opuesto, por ej:
+    si A fuera verdadera, con !A sería falsa; si el resultado de (A && B) fuera verdadero, con !(A && B) el
+    resultado se volvería falso.
