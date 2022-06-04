@@ -235,7 +235,10 @@ function esVerdadero(valor){
   {
     return "Soy falso";
   }
-  else return;
+  else
+  {
+    return;
+  }
 }
 
 function tablaDelSeis(){
