@@ -229,11 +229,11 @@ function esVerdadero(valor){
   //Escribe tu código aquí
   if (valor === true)
   {
-    return “Soy verdadero”;
+    return "Soy verdadero";
   }
   else (valor === false)
   {
-    return “Soy falso”;
+    return "Soy falso";
   }
   else return;
 }
