@@ -80,7 +80,7 @@ function agregarNumeros(numeros) {
   // Tu código:
   var newagregarnumeros;
   for (var i = 0; i < numeros.length; i++) {
-    newagregarnumeros = newagregarnumeros+numero[i];
+    newagregarnumeros = newagregarnumeros+numeros[i];
   }
   return newagregarnumeros;
 }
