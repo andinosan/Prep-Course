@@ -219,7 +219,7 @@ function elevarAlCuadrado(num) {
   // Tu código:
   var newnum, newelevarAlCuadrado, newresultado;
   newnum = num;
-  newelevarAlCuadrado = (Math.pow (num, 2));
+  newelevarAlCuadrado = (Math.pow (newnum, 2));
   newresultado = newelevarAlCuadrado;
   return newresultado;
 }
@@ -229,7 +229,7 @@ function elevarAlCubo(num) {
   // Tu código:
   var newnum, newelevarAlCubo, newresultado;
   newnum = num;
-  newelevarAlCubo = (Math.pow (num, 3));
+  newelevarAlCubo = (Math.pow (newnum, 3));
   newresultado = newelevarAlCubo;
   return newresultado;
 }
