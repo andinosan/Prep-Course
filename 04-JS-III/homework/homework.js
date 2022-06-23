@@ -176,16 +176,14 @@ function mesesDelAño(array) {
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
   var newarray = [];
-  var estan = false;
   for (var i = 0; i < array.length; i++) {
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre")
     {
-      estan = true;
     newarray.push(array[i]);
     }
   }
-  if (estan == true) return newarray;
-  return "No se encontraron los meses pedidos";
+  if (newarray.length < 3) return "No se encontraron los meses pedidos";
+  return newarray;
 }
 
 
