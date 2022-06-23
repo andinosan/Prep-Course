@@ -48,6 +48,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  array.unshift(elemento);
+  return array;
 }
 
 
@@ -57,6 +59,11 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  var newpalabras;
+  for (var i = 0; i < palabras.length; i++) {
+    newpalabras = `${newpalabras} ${palabras[i]}`;
+  }
+  return newpalabras;
 }
 
 
