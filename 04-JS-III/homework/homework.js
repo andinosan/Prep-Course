@@ -94,7 +94,7 @@ function promedioResultadosTest(resultadosTest) {
   for (var i = 0; i < resultadosTest.length; i++) {
     newpromedio = newpromedio+resultadosTest[i];
   }
-  newpromedio = newpromedio/(resultadosTest.length-1);
+  newpromedio = newpromedio/resultadosTest.length;
   return newpromedio;
 }
 
@@ -103,6 +103,11 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  var mayor=0;
+  for (var i = 0; i < numeros.length; i++) {
+    if(numeros[i] > mayor) mayor=numeros[i];
+  }
+  return mayor;
 }
 
 
