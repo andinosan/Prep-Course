@@ -30,14 +30,18 @@ function invocarMetodo (objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto.metodo();
+  objeto[metodo]();
 }
 
 function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
+objetoMisterioso.numeroMisterioso;
 
+numeroMisterioso{
+  return this.numeroMisterioso * 5
+}
 }
 
 function eliminarPropiedad (objeto, unaPropiedad) {
