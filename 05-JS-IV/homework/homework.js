@@ -47,7 +47,7 @@ function eliminarPropiedad (objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  delete objeto[propiedad];
+  delete objeto[unaPropiedad];
 
   return objeto;
 }
@@ -59,7 +59,7 @@ function nuevoUsuario (nombre, email, password) {
   var nuevoobjeto = {
     minombre: nombre,
     miemail: email,
-    mipassword: password,
+    mipassword: password
     }
   return nuevoobjeto;
 }
