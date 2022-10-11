@@ -370,7 +370,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var neweuro, newdeEuroAdolar, newresultado;
-  const valordolar = 1.20; // Es constante porque el valor del dólar nunca será cambiado por la función
+  const valordolar = 1.20; // Es constante porque el valor del dólar nunca cambiará por la función
   neweuro = euro;
   newdeEuroAdolar = neweuro * valordolar;
   newresultado = newdeEuroAdolar;
